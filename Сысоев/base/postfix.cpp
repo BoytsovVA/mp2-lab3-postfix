@@ -36,9 +36,7 @@ void TPostfix::InputStr(string& v)
 	{
 		if (IsOperand(v[i]))
 		{
-			
-			cout << "Введите переменную ";
-			std::printf("%c ", v[i]);
+			cout << "Введите переменную " << v[i] <<": ";
 			cin >> str;
 			char ch = v[i];
 			int j = i;
