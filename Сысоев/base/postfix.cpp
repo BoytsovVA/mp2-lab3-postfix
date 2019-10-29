@@ -1,7 +1,6 @@
 ﻿#include "postfix.h"
 #include "stack.h"
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -210,10 +209,7 @@ double TPostfix::Calculate()
 			else if (postfix[i] == '/')
 			{
 				if (a == 0.0)
-				{
-					cout << "Неверный знаменатель";
 					throw "Error Division";
-				}	
 				Res.Push(b / a);
 			}
 		}
