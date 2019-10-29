@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	string expression;
-	TPostfix postfix("1+2/(3-3)");
+	TPostfix postfix("1+2/(4-3)");
 	double res;
 
 	setlocale(LC_ALL, "Russian");

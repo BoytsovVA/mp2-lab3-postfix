@@ -58,7 +58,7 @@ TEST(TStack, two_stacks_are_not_equal)
 }
 TEST(TStack, assign_operator_change_stack_size)
 {
-	TStack<int> st1(5), st2(10);
+	TStack<int> st1(50), st2(10);
 	st1 = st2;
 	EXPECT_NE(5, st1.GetSize());
 }

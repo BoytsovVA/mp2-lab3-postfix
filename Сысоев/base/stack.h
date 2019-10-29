@@ -63,6 +63,26 @@ public:
 			throw "Error";
 	}
 
+	TStack& operator=(const TStack& v)
+	{
+		if (size != v.size)
+		{
+			delete[] pMem;
+			size = v.size;
+			top = v.top;
+			pMem = new T[size];
+			for (int i = 0; i < size; i++)
+				pMem[i] = v.pMem[i];
+		}
+		else
+		{
+			for (int i = 0; i < size; i++)
+				pMem[i] = v.pMem[i];
+			top = v.top;
+		}
+		return *this;
+	}
+
 	bool operator==(const TStack& v) const
 	{
 		if (this->size != v.size)
