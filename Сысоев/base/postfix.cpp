@@ -1,7 +1,6 @@
 ﻿#include "postfix.h"
 #include "stack.h"
 #include <iostream>
-
 using namespace std;
 
 bool TPostfix::IsOperator(char v)
@@ -37,7 +36,9 @@ void TPostfix::InputStr(string& v)
 	{
 		if (IsOperand(v[i]))
 		{
-			cout << "Введите переменную" << v[i] << ':  ';
+			
+			cout << "Введите переменную ";
+			std::printf("%c ", v[i]);
 			cin >> str;
 			char ch = v[i];
 			int j = i;

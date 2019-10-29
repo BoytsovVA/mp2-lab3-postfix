@@ -1,6 +1,6 @@
 ﻿#ifndef __STACK_H__
 #define __STACK_H__
-
+using namespace std;
 const int MaxStackSize = 100;
 
 template <class T>
@@ -98,6 +98,8 @@ public:
 		}
 	}
 	bool operator!=(const TStack& v) const { return!(*this == v); }
+
+	
 };
 
 #endif
