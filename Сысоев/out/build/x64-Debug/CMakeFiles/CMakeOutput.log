@@ -1,0 +1,83 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/Microsoft Visual Studio/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28107 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.23.28107.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/3.15.19080502-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/Microsoft Visual Studio/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28107 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.23.28107.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/3.15.19080502-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5a663 && [1/2] Building C object CMakeFiles\cmTC_5a663.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_5a663.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f096e && [1/2] Building C object CMakeFiles\cmTC_f096e.dir\CMakeCCompilerABI.c.obj
+Примечание: включение файла:  E:\Microsoft Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCompilerABI.h
+[2/2] Linking C executable cmTC_f096e.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f1e21 && [1/2] Building CXX object CMakeFiles\cmTC_f1e21.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_f1e21.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/Учёба/Алгоритмы и стуктуры данных/mp2-lab3-postfix/Сысоев/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_11ded && [1/2] Building CXX object CMakeFiles\cmTC_11ded.dir\CMakeCXXCompilerABI.cpp.obj
+Примечание: включение файла:  E:\Microsoft Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCompilerABI.h
+[2/2] Linking CXX executable cmTC_11ded.exe
+
+
+
