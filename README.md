@@ -62,3 +62,4 @@ __Цель данной работы__  — разработка структу�
 [gtest-guide]: https://github.com/UNN-VMK-Software/mp2-lab1-set/blob/master/docs/part2-google-test.md
 
 "# mp2-lab4-Classter" 
+"# mp2-lab4-Classter" 
