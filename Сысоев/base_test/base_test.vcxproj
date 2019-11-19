@@ -83,8 +83,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test_main.cpp" />
-    <ClCompile Include="test_tpostfix.cpp" />
-    <ClCompile Include="test_tstack.cpp" />
+    <ClCompile Include="test_tqueue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
